@@ -20,6 +20,16 @@
     #formulario > p{
         margin: 10px 0px;
     }
+    div.campo > input{
+        background-color: #6fd1ce;
+        font-size: 1em;
+        width: calc(100% - 44.36px);
+        height: 100%;
+        border: 0px;
+        border-radius: 0px 8px 8px 0px;
+        padding: 4px;
+        transform: translateY(-8px);
+    }
 }
 @media screen and (min-width: 992px) {
     body{
@@ -46,5 +56,15 @@
     #formulario > p{
         font-size: 1.1em;
         margin: 10px 0px;
+    }
+    div.campo > input{
+        background-color: #6fd1ce;
+        font-size: 1em;
+        width: calc(100% - 44.36px);
+        height: 100%;
+        border: 0px;
+        border-radius: 0px 8px 8px 0px;
+        padding: 4px;
+        transform: translateY(-8px);
     }
 }
